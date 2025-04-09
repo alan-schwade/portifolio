@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portifolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!--navbar-->
+    <div class="col-12 text-center">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projetos">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contatos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <section id="sobre" class="container mt-5 pt-5">
+      <h2 class="text-center">Sobre Mim</h2>
+      <p class="text-center">Meu nome é Alan Schwade, tenho 20 anos, atualmente estudando Ciência da Computação no
+        Instituto Federal Campus Ibirubá, e trabalhando como Analista de Infraestrutura CFTV na Coprel Telecom. Também
+        aprimorando as habilidades em programação realizando trabalhos de estudo.</p>
+    </section>
+
+    <!--Projetos-->
+    <section id="projetos">
+      <div class="col-10">
+        <h2>Projetos</h2>
+        <hr>
+        <div class="row">
+          <div class="col-3">
+            <figure class="figure">
+              <a href="https://github.com/alan-schwade/projetos" target="_blank">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3OvTBMdyQBFomjm09743Pr1kJsu0_x5KoQ-va7l3LxkVykoJwIne4ohVi-74TAd4tKcU&usqp=CAU.png"
+                  class="figure-img img-fluid rounded-circle" height="200" width="200" alt="...">
+              </a>
+              <figcaption class="figure-caption">Projetos feitos na faculdade</figcaption>
+            </figure>
+          </div>
+          <div class="col-3">
+            <figure class="figure">
+              <a href="https://github.com/alan-schwade/SimuladorCache" target="_blank">
+                <img src="https://avatars.githubusercontent.com/u/4975968?s=280&v=4.png"
+                  class="figure-img img-fluid rounded-circle" height="200" width="200" alt="...">
+              </a>
+              <figcaption class="figure-caption">Projetos feitos na Alura</figcaption>
+            </figure>
+          </div>
+          <div class="col-3">
+            <figure class="figure">
+              <a href="https://github.com/alan-schwade/dio-java-basic" target="_blank">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKw5JRBqrwiDIDd3ZUlG-Q6vqVLBTdOh6w-A&s.png"
+                  class="figure-img img-fluid rounded-circle" height="200" width="200" alt="...">
+              </a>
+              <figcaption class="figure-caption">Projetos feitos na DIO.me</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <br>
+    <hr>
+    <section id="contato">
+      <!--contatos-->
+      <div class="mb-3">
+        <h2>Entrar em contato</h2> <br>
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nome</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit">Button</button>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
+    crossorigin="anonymous"></script>
+
+  <!--rodape-->
+  <footer class="bg-dark text-white text-center py-3 mt-5 fixed-bottom">
+    <p>&copy 2025 <a href="https://www.linkedin.com/in/alan-schwade-989120287" class="text-white"
+        target="_blank">Linkedin</a> | <a href="https://github.com/alan-schwade" class="text-white"
+        target="_blank">GitHub</a>
+  </footer>
+</body>
+
+</html>
